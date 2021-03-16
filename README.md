@@ -2,6 +2,9 @@
 
 a compilation of themes, css snippets, and personal code.
 
+i originally got this from someone else (ty archpowered/farlandercraft), and then edited it a bunch and added other themes to it.  
+
+
 themes imported:
 
 - [frosted-glass](https://github.com/DiscordStyles/FrostedGlass)
