@@ -1,0 +1,21 @@
+[submodule "modules/badges"]
+	path = modules/badges
+	url = https://github.com/Discord-Theme-Addons/discord-name-badges
+[submodule "modules/betterbg"]
+	path = modules/betterbg
+	url = https://github.com/CloneyInnit/BetterBG
+[submodule "modules/teardrop"]
+	path = modules/teardrop
+	url = https://github.com/Freeplayg/Discord-TeardropMessages
+[submodule "modules/pop"]
+	path = modules/pop
+	url = https://github.com/devinkid1/Pop
+[submodule "modules/tests"]
+	path = modules/tests
+	url = https://github.com/Discord-Theme-Addons/power-toasts
+[submodule "modules/user-connections"]
+	path = modules/user-connections
+	url = https://github.com/Discord-Theme-Addons/refined-user-connections
+[submodule "modules/buttongradients"]
+	path = modules/buttongradients
+	url = https://github.com/Discord-Theme-Addons/gradientbuttons-v2

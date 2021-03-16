@@ -1,6 +1,12 @@
 @use './main';
-//@import 'https://raw.githubusercontent.com/Discord-Theme-Addons/discord-name-badges/main/src/main/_powercord.scss';
-//@import 'https://raw.githubusercontent.com/Discord-Theme-Addons/discord-name-badges/main/src/main/_users.scss';
+@use './modules/badges/src/main/_powercord.scss';
+@use './modules/tests/index_powercord.scss';
+@use './modules/teardrop/theme';
+@use './modules/pop/base';
+@use './modules/buttongradients/index.scss';
+@use './modules/betterbg/BetterBG.theme';
+@import './modules/user-connections/index.scss';
+
 @mixin badge($userID, $badgeLink) {
     .wrapper-2a6GCs[data-author-id="#{$userID}"] .header-23xsNx .username-1A8OIy, // Messages
     .avatar-3EQepX[data-user-id="#{$userID}"] + .headerInfo-30uryT .username-2b1r56, // Profile Modals
@@ -31,4 +37,5 @@
         }
     }
 }
-//@include badge ("98133204636028928", "https://send-me-femboy.thigh.pics/dC363EA3e181FA7c.png")
+
+@include badge ("98133204636028928", "https://cdn.discordapp.com/emojis/782221970313445376.gif?v=1")
