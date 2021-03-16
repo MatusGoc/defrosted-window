@@ -1,8 +1,8 @@
 {
-    "name": "cooler frosted glass",
-    "description": "Display your picture of choice with adjustable blur and brightness. Discord Dark theme is required via the Appearance tab.",
-    "version": "2.0.0",
-    "author": "FarlanderCraft#6656",
+    "name": "Defrosted Window",
+    "description": "compilation of the latest and greatest full themes and component themes",
+    "version": "1.0.0",
+    "author": "FarlanderCraft#6656, jai#0001",
     "theme": "smain.scss",
     "consent": "false",
     "license": "unknown"
