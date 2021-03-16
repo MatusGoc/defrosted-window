@@ -1,0 +1,169 @@
+@import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/base.css");
+
+/* User Background */
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/modals.css');
+
+/* BlackBox tags */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Horizontal Server List */
+@import url("https://discordstyles.github.io/HorizontalServerList/base.css");
+@import url('https://gibbu.github.io/BetterDiscord-Themes/addons/bottomhsl.css');
+
+
+:root {
+
+  /* Background image variables */
+  /* https://i.imgur.com/YvYczOM.jpg */
+  --background-image: url('https://send-me-femboy.thigh.pics/348aCAAb6d66B908.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
+
+  /* Popout & Modal variables */
+  --popout-modal-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --popout-modal-blur: 5px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
+
+  /*Horizontal Server List */
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  
+  /* Brightness variables */
+  --serverlist-brightness: 0.8; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --left-brightness: 0.8; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --middle-brightness: 0.6; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+
+  /* Gradient variables */
+  --gradient-primary: 103,58,183; /* DEFAULT: 103,58,183 */
+  --gradient-secondary: 63,81,181; /* DEFAULT: 63,81,181 */
+  --gradient-direction: 320deg; /* DEFAULT: 320deg */
+  --grad: linear-gradient(var(--gradient-direction), 0% var(--gradient-primary), 100% var(--gradient-secondary))
+  /* Tint variables */
+  --tint-colour: 255,51,159; /* Colour of tint | DEAFULT: 255,51,159 */
+  --tint-brightness: 0; /* Brightness of --tint-colour | DEFAULT: 0 */
+
+  /* Other variables */
+  --window-padding: 5px; /* Spacing around the Discord window | DEFAULT: 20px */
+  --window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
+  --scrollbar-colour: rgba(255,255,255,0.05); /* DEFAULT: rgba(255,255,255,0.05) */
+  --link-colour: #00b0f4; /* DEFAULT: #00b0f4 */
+  --show-gift-gif-buttons: all; /* Show buttons: allow | Hide buttons: none | DEFAULT: none */
+
+  /*
+    Visit https://fonts.google.com and select one to your liking.
+    Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+  */
+  --font: 'Whitney';
+
+  /* Do not touch */
+  --update-notice-1: none;
+}
+  /*Hide Blocked Messages*/
+.wrapper-2a6GCs[data-is-blocked="true"] {
+  display: none;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
+  --folder-bg-contract: 0.4rem;
+  width: calc(var(--server-size) - var(--folder-bg-contract)) !important;
+}
+.botTag-2WPJ74 {
+    border-radius: 20px !important;
+}
+SS
+.blobContainer-239gwq svg > foreignObject {mask: none;}
+
+
+/**
+ * Snippet from #css-snippets applied the Mar 7, 2021 at 4:04:41 PM
+ * Created by ADudeCalledLeo#8665 (169456051920437248)
+ * Snippet ID: 818212595549863956
+ */
+:root {
+  --button-scale: .8;
+}
+.panels-j1Uci_ .button-14-BFJ {
+  transform: scale(var(--button-scale));
+  width: calc(36px * var(--button-scale));
+  height: calc(36px * var(--button-scale));
+  margin: calc(-4px * var(--button-scale));
+}
+/** 818212595549863956 */
+
+/**
+ * Snippet from #css-snippets applied the Mar 8, 2021 at 10:53:36 AM
+ * Created by Doggybootsy#1333 (515780151791976453)
+ * Snippet ID: 818383883870666772
+ */
+.modeUnread-1qO3K1>div>a>div>.icon-1DeIlz{
+  color:var(--interactive-active);
+}
+/** 818383883870666772 */
+
+/**
+ * Snippet from #css-snippets applied the Mar 8, 2021 at 10:23:38 PM
+ * Created by zjtech123#6743 (261236127581601793)
+ * Snippet ID: 818640033434566666
+ */
+/** Unread Pill Bar v1 */
+.newMessagesBar-265mhP {
+    width: 500px;
+      top: 1.6rem;
+    left: auto;
+    right: 12px;
+    border-radius: 0.7rem 0 0 0.7rem;
+        float: right;
+}
+.newMessagesBar-265mhP.barBase-1c2Rfb .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
+    width: auto;
+}
+/** 818640033434566666 */
+
+/**
+ * Snippet from #css-snippets applied the Mar 11, 2021 at 1:43:02 PM
+ * Created by dante_nl#7950 (618082876730376202)
+ * Snippet ID: 819635938795192340
+ */
+.compact-T3H92H .messageContent-2qWWxC {
+    font-size: 0;
+}
+.compact-T3H92H .messageContent-2qWWxC::after {
+    content: "Please switch to cozy mode. You can do this via Settings ➜ Appearance ➜ Message Display and click 'Cozy'";
+    font-size: 16px;
+}
+
+.compact-T3H92H .username-1A8OIy {
+  font-size: 0;
+}
+
+.compact-T3H92H .username-1A8OIy::after {
+  content: "Clyde";
+  color: #fff;
+  font-size: 16px;
+}
+
+.compact-T3H92H .username-1A8OIy::before {
+  content: 'BOT';
+  color: #fff;
+  background: #7289da;
+  font-size: 10px;
+  font-weight: 500;
+  height: 1.28em;
+  padding: 1px 4px;
+  border-radius: 3px;
+  line-height: 1.3;
+  margin-left: 4px;
+  margin-right: 3px;
+}
+/** 819635938795192340 */
+
+div[class*=modeUnread] > div[class*=unread]{height:100%;top:4px;right:0;left:auto;}
+div[class*=modeUnread] > div[class*=content]{/*background:linear-gradient(to right, transparent 0%, transparent 80%, white 100%) !important;*/}
+[class*=typeWindows]>[class*=Close]{width:14px !important;height:14px !important;border-radius:11px;background-color:rgb(var(--discord-red)) !important; margin:4px;}
+[class*=typeWindows] div:nth-of-type(3){width:14px !important;height:14px !important;border-radius:11px;background-color:rgb(var(--discord-yellow)) !important; margin:4px;}
+[class*=typeWindows]>div:nth-of-type(4){width:14px !important;height:14px !important;border-radius:11px;background-color:rgb(var(--discord-green)) !important; margin:4px;}
+[class*=typeWindows]>[class*=Close] svg, [class*=typeWindows]>[class] svg{display:none;}
+[class*=typeWindows]{flex-direction:row;}
+[class*=wordmark]{display:none;}
+[class*=typeWindows]>div:hover{filter:brightness(110%)}
+[class*=threadSidebar]{background: rgba(0, 0, 0, var(--middle-brightness));margin-right:8px;border-radius:8px;}
