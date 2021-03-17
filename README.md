@@ -7,6 +7,18 @@ a compilation of themes, css snippets, and personal code.
 i originally got this from someone else (ty archpowered/farlandercraft), and then edited it a bunch and added other themes to it.  
 ![theme preview](https://send-me-femboy.thigh.pics/0d86C7c4FfaE82Ab.jpg)
 
+## installation
+
+```
+cd (powercord themes folder)
+git clone https://github.com/jdadonut/defrosted-window 
+cd defrosted-window 
+git submodule init
+git submodule update
+```
+
+
+
 themes imported:
 
 - [frosted-glass](https://github.com/DiscordStyles/FrostedGlass)
