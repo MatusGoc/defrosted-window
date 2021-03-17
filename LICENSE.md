@@ -1,6 +1,6 @@
 # Components
 
-## userbg, HorizontalServerList, frosted-glass, discord-name-badges, Pop, power-toasts, refined-user-connections and gradientbuttons-v2 fall under an MIT license
+## userbg, HorizontalServerList, frosted-glass, discord-name-badges, Pop, power-toasts, BetterBG, refined-user-connections and gradientbuttons-v2 fall under an MIT license
 MIT License Transcript:
 
 > MIT License
