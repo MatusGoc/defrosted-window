@@ -18,5 +18,4 @@ themes imported:
 - [refined-user-connections](https://github.com/Discord-Theme-Addons/refined-user-connections)
 - [gradientbuttons-v2](https://github.com/Discord-Theme-Addons/gradientbuttons-v2)
 - [usrbg](https://github.com/Discord-Custom-Covers/usrbg)
-- [monstrousdev's user-tags addon](https://github.com/monstrousdev/themes)
 - [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList)
