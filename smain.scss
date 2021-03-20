@@ -5,6 +5,7 @@
 @use './modules/pop/base';
 @use './modules/buttongradients/index.scss';
 @use './modules/betterbg/BetterBG.theme';
+@use './snippets.scss';
 @import './modules/user-connections/index.scss';
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @mixin badge($userID, $badgeLink) {
@@ -41,3 +42,5 @@
 }
 
 @include badge ("98133204636028928", "https://cdn.discordapp.com/emojis/782221970313445376.gif?v=1");
+//@include optional__minified_chanel_list();
+//@include optional__transparent_settings_panels();
