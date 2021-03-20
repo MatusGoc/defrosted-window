@@ -14,7 +14,19 @@ minified animated channel list, useful for smaller/vertical screens.
 
 
 i originally got this from someone else (ty archpowered/farlandercraft), and then edited it a bunch and added other themes to it.  
-![theme preview](https://send-me-femboy.thigh.pics/b6b84F3A0BeF01d4.jpg)
+![theme preview](https://send-me-femboy.thigh.pics/0d86C7c4FfaE82Ab.jpg)
+
+## installation
+
+```
+cd (powercord themes folder)
+git clone https://github.com/jdadonut/defrosted-window 
+cd defrosted-window 
+git submodule init
+git submodule update
+```
+
+
 
 themes imported:
 
@@ -27,5 +39,4 @@ themes imported:
 - [refined-user-connections](https://github.com/Discord-Theme-Addons/refined-user-connections)
 - [gradientbuttons-v2](https://github.com/Discord-Theme-Addons/gradientbuttons-v2)
 - [usrbg](https://github.com/Discord-Custom-Covers/usrbg)
-- [monstrousdev's user-tags addon](https://github.com/monstrousdev/themes)
 - [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList)
