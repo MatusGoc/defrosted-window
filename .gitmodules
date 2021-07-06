@@ -3,7 +3,7 @@
 	url = https://github.com/Discord-Theme-Addons/discord-name-badges
 [submodule "modules/betterbg"]
 	path = modules/betterbg
-	url = https://github.com/CloneyInnit/BetterBG
+	url = https://github.com/MatusGoc/BetterBG
 [submodule "modules/teardrop"]
 	path = modules/teardrop
 	url = https://github.com/Freeplayg/Discord-TeardropMessages

@@ -14,7 +14,8 @@
 
   /* Background image variables */
   /* https://i.imgur.com/YvYczOM.jpg */
-  --background-image: url('https://send-me-femboy.thigh.pics/348aCAAb6d66B908.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  /* --background-image: url('https://send-me-femboy.thigh.pics/348aCAAb6d66B908.jpg'); Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: url('https://i.imgur.com/YvYczOM.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
 
   /* Popout & Modal variables */
